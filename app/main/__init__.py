@@ -1,4 +1,5 @@
-from flask import Blueprint
+from ensurepip import bootstrap
+from flask import Blueprint, Flask
 main = Blueprint('main', __name__)
 from . import views,error
 
@@ -12,7 +13,7 @@ def create_app(config_name):
     bootstrap.init_app(app)
 
     # Registering the blueprint
-    from .main import main as main_blueprint
+    from main import main as main_blueprint
     app.register_blueprint(main_blueprint)
 
     return app
