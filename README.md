@@ -9,7 +9,7 @@ This project was generated using python version 3.10 This project uses a news AP
 ## Setup/Installation Requirements
 1.Clone the repository
 
-git clone 
+git clone https://github.com/Fuadmanye/news-api.git
 
 2.Change Directory to go into the project directory
 
@@ -27,17 +27,12 @@ $ pip install flask-bootstrap
 
 
 ## Technologies Used
-* HTML
-
-* CSS
-
-* JavaScript
-
-* angular
-
-* git
+Python 
+Flask 
+Flask-Bootstrap
+HTML
 
 ## Support and contact details
-Email:https://github.com/Fuadmanye/github-search.git
+Email: fuad.manyi@student.moringaschool.com
 ### License
 Copyright (c) 2022 [click here to view license](LICENSE)
