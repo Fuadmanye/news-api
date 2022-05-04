@@ -27,9 +27,9 @@ $ pip install flask-bootstrap
 
 
 ## Technologies Used
-*Python 
-* Flask 
-* Flask-Bootstrap
+* Python 3.10
+* Flask 1.1.4
+* Flask-Bootstrap 
 * HTML
 
 ## Support and contact details
