@@ -1,3 +1,4 @@
-export NEWS_API_KEY=b32f44eacc304e3db54923913ad3b593
+export NEWS_API_KEY=d207a7f9422a4d9999038840bc3855fe
+export SECRET_KEY=FUAD123
 
 python3.10 manage.py server

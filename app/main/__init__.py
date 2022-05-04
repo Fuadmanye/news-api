@@ -1,5 +1,6 @@
-from ensurepip import bootstrap
+
 from flask import Blueprint, Flask
+from config import config_options
 main = Blueprint('main', __name__)
 from . import views,error
 
@@ -8,9 +9,7 @@ def create_app(config_name):
 
     # Creating the app configurations
     app.config.from_object(config_options[config_name])
-
-    # Initializing flask extensions
-    bootstrap.init_app(app)
+    
 
     # Registering the blueprint
     from main import main as main_blueprint
