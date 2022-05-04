@@ -27,10 +27,10 @@ $ pip install flask-bootstrap
 
 
 ## Technologies Used
-Python 
-Flask 
-Flask-Bootstrap
-HTML
+*Python 
+* Flask 
+* Flask-Bootstrap
+* HTML
 
 ## Support and contact details
 Email: fuad.manyi@student.moringaschool.com
